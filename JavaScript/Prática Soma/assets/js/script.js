@@ -1,22 +1,22 @@
-function desafioPratico(numero1, numero2){
-    const soma = numero1 + numero2;
-    if(numero1 === numero2){
-        if(soma < 10){
-            console.log(`Os números ${numero1} e ${numero2} são iguais. Sua soma é ${soma}, que é menor que 10 e menor que 20`);
-        }else if(soma > 10 && soma < 20){
-            console.log(`Os números ${numero1} e ${numero2} são iguais. Sua soma é ${soma}, que é maior que 10 e menor que 20`);
-        }else{
-            console.log(`Os números ${numero1} e ${numero2} são iguais. Sua soma é ${soma}, que é maior que 10 e maior que 20`);
-        }
-    }else{
-        if(soma < 10){
-            console.log(`Os números ${numero1} e ${numero2} não são iguais. Sua soma é ${soma}, que é menor que 10 e menor que 20`);
-        }else if(soma > 10 && soma < 20){
-            console.log(`Os números ${numero1} e ${numero2} não são iguais. Sua soma é ${soma}, que é maior que 10 e menor que 20`);
-        }else{
-            console.log(`Os números ${numero1} e ${numero2} não são iguais. Sua soma é ${soma}, que é maior que 10 e maior que 20`);
-        }
-    }
+function verificarIguais(numeroUm, numeroDois){
+    let saoIguais = "";
+    if(numeroUm !== numeroDois) saoIguais = "não";
+    return `Os números ${numeroUm} e ${numeroDois} ${saoIguais} são iguais.`
 }
 
-desafioPratico(6,6);
+function compararNumeros(numeroUm, numeroDois){
+    const soma = numeroUm + numeroDois;
+    let maiorQueDez = "maior";
+    let maiorQueVinte = "maior";
+    if(soma < 10) maiorQueDez = "menor";
+    if(soma < 20) maiorQueVinte = "menor";
+    return `Sua soma é ${soma}, que é ${maiorQueDez} que 10 e ${maiorQueVinte} que 20.`
+}
+
+function desafioPratico(numeroUm, numeroDois){
+    const stringIguais = verificarIguais(numeroUm, numeroDois);
+    const stringComparar = compararNumeros(numeroUm, numeroDois);
+    return `${stringIguais} ${stringComparar}`;
+}
+
+console.log(desafioPratico(12,12));
