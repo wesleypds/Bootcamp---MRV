@@ -1,9 +1,49 @@
 body {
-    font-family: Verdana;
+    text-align: center;
+    margin: 0px;
+    background-color: #94B7DA;
+    font-size: 40px;
+    font-family: Cambria;
 }
 
-.title {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: #ABB2B9;
+h1 {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+input {
+    height: 25px;
+}
+
+button {
+    height: 25px;
+}
+
+#cabecalho {
+    margin: 0%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #324B3A ;
+    border-bottom: 3px solid black;
+}
+
+.tasks-text {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.task-item {
+    background-color: #324B3A;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 3px;
+}
+
+.lineThrough {
+    text-decoration: line-through;
 }
