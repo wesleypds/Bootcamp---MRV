@@ -1,0 +1,66 @@
+Coluna: é uma coluna com um tipo específico de dado.
+Registro: é o nome que se dar as linhas de uma tabela.
+Query: são os comandos realizados para modelar os dados.
+Chave primária: É uma chave unica para cada registro.
+Chave estrangeira: Faz a relação de uma tabela com outra.
+
+Comandos:
+
+select distinct -> é o comando para retornar valores únicos (não duplicados) de uma
+tabela.
+select * from sys.talbes -> para selecionar as tabelas
+create database NomeDoBanco -> para criar o banco de dados
+use NomeDoBanco -> para seleciocar o banco que queira usar
+create table -> para criar uma tabela
+insert NomeDaTabela values('valor1', 'valor2')
+select * from NomeDaTabela -> para selecionar a tabela
+drop table -> para apagar a tabela
+
+select *                            |
+from NomeDaTabela                   | -> irá retornar os registros com os valores
+where NomeDaColuna = 'ValorDaColuna'|    filtrados a partir dos paramentros passado
+                                         no comando where   .
+
+
+update  NomeDaTabela
+set     NomeDaColuna1 = NovoValor,   |
+        NomeDaColuna2 = NovoValor    | -> irá modificar os dados das colunas, onde
+where   NomeDaColuna = ValorDaColuna |    o comando where indica que os registros
+                                          que tenha esse dado especifico, terá suas
+                                          outras colunas modificadas pelo novo valor
+
+delete                                |
+from    NomeDaTabela                  | -> irá deletar os registros que tiverem os
+where   NomeDaColuna in(ValorDaColuna)|    valores passados como parametro da coluna
+                                           no where
+
+alter table    NomeDaTabela     |
+add constraint pk_nomedatabela  |-> para criar uma chave primaria onde se pode pass
+primary key    (NomeDaColuna)   |   ar como parametro uma ou mais colunas para que
+                                    se forme a chave, necessariamente do tipo int
+
+alter table    NomeDaTable                         | -> para criar uma chave estran
+add constraint pf_nomedatabela                     |    geira se passa como parame
+foreign key    (NomeDaColuna)                      |    tro o nome da coluna onde
+reference      TabelaReferencia (ColunaReferencia) |    é referenciada com a chave 
+                                                        primaria de outra tabela
+
+alter table  NomeDaTabela | -> para mudar o tipo dos dados de uma coluna onde eles
+alter column NomeDaColuna |    poderão ou não receber nulos
+
+inner join -> vai retornar todos os pedidos que estiverem na tabela referenciada
+left join -> vai retornar todas as informações da tabela da esquerda
+rigth join -> vai retornar todas as informações da tabela da direita
+
+Informações adicionais: O * se refere a todas a colunas da tabela, para
+selecionar uma coluna específica, basta colocar o dela.
+
+EX: select NomeColuna1, NomeColuna2 from NomeTabela
+
+Nesse exemplo irá selecionar duas colunas da tabela
+
+getdate() é uma função do próprio sql que retorna a data e a hora atual
+
+colunas com dados que recebem nulos, não podem ser parametros com primary key
+
+as tabelas que tem relações de n para 1, carregão as chances estrangeiras
