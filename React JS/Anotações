@@ -1,0 +1,20 @@
+Comandos essenciais:
+
+Node/React
+
+sudo apt install nodejs -> Para instalar o node/npm ná máquina
+npm -V -> Para verificar a versão do npm
+node -V -> Para verificar a versão do node
+sudo npm install -g npm@latest -> Para instalar a versão mais recente do node
+sudo npm install -g create-react-app -> Para instalar o Create React que irá fazer fazer a pré-configuração do react
+create-react-app --version -> Para verificar a versão do Create React
+create-react-app NomeDoProjeto -> Para criar o projeto react
+npm start -> Para iniciar o servidor de desenvolvimento
+sudo npm uninstall -g create-react-app -> Para desinstalar o Create React
+sudo apt remove nodejs -> Para remover o node
+
+Webpack
+
+npm i -D webpack webpack-cli               |
+npm install --save-dev webpack webpack-cli | -> Para instalar webpack em modo de desenvolvimento
+
