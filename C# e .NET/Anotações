@@ -1,0 +1,3 @@
+Para criar um novo projeto dotnet usa o comando: dotnet new console -n nomeDoProjeto
+Para compilar um projeto dotnet usa o comando: dotnet build
+Para rodar um projeto dotnet usa o comando: dotnet run
