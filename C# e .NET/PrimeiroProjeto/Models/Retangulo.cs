@@ -1,5 +1,3 @@
-using System;
-
 namespace PrimeiroProjeto.Models
 {
     public class Retangulo

@@ -3,3 +3,30 @@
 - Para rodar um projeto dotnet usa o comando: dotnet run
 - Para criar suluções dotnet usa o comando: dotnet new sln --name NomeDoProjeto
 - Para adicionar o projeto na solução usa o comando: dotnet sln add nomeDoProjeto/nomeDoProjeto.csproj
+
+---- Abstração ----
+
+Abstração é o método de abstrair tudo que for importante de um objeto para um determinado uso.
+Ex: Caso queira registrar uma aluno, as informações mais importantes para serem abstraidas
+são seu nome, idade e documento. Neste caso não faria sentido informações a mais como a comida
+favorita, ou o filme favorito dessa pessoa.
+
+---- Encapsulamento ----
+
+Encapsulamento é o método de encapsular todas as propriedas que devem ser privadas, ou seja,
+tenha restrições para modifica-las.
+Ex: Uma proprieda de saldo em uma conta bancária, é necessário que essa propriedade seja alterada
+somento quando um método for chamado e se esse método atender as condições que foram impostas.
+
+---- Herança ----
+
+Herança é o método onde uma classe porta propriedades de suas classes ancestrais.
+Ex: Caso queria criar uma classe aluno onde já tenha uma classe pessoa, essa nova classe aluno
+vai herdar todos os atributos da classe pessoa, como o nome, idade, documentos e etc.
+
+---- Polimorfismo ----
+
+Polimorfismo é o método onde uma classe que herda métodos de outra classe possa subscrever esses
+métodos caso não funcione para a classe filha.
+Ex: Caso queira apresentar os atributos de uma classe filha e na classe pai o método para isso
+não seja a forma ideal para esse uso, pode-se subscrever esse método para o melhor uso.

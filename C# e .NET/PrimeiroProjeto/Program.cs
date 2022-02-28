@@ -1,5 +1,4 @@
-﻿using System;
-using PrimeiroProjeto.Models;
+﻿using PrimeiroProjeto.Models;
 
 namespace PrimeiroProjeto
 {
@@ -7,15 +6,27 @@ namespace PrimeiroProjeto
     {
         static void Main(string[] args)
         {
-            Pessoa p1 = new Pessoa();
-            Retangulo med = new Retangulo();
+            Aluno al = new Aluno();
+            al.Nome = "Wesley";
+            al.Idade = 25;
+            al.Nota = 75;
+            al.Apresentar();
 
-            p1.Nome = "Wesley Pereira";
-            p1.Idade = 25;
-            p1.Apresentar();
+            Professor prof = new Professor();
+            prof.Nome = "João";
+            prof.Idade = 47;
+            prof.Salario = 1500;
+            prof.Apresentar();
 
-            med.DefMed(0,10);
-            Console.WriteLine($"A área do rentangulo é {med.ObterArea()}");
+            // Pessoa p1 = new Pessoa();
+            // Retangulo med = new Retangulo();
+
+            // p1.Nome = "Wesley Pereira";
+            // p1.Idade = 25;
+            // p1.Apresentar();
+
+            // med.DefMed(0,10);
+            // Console.WriteLine($"A área do rentangulo é {med.ObterArea()}");
         }
     }
 }
