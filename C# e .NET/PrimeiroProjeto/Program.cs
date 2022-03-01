@@ -6,17 +6,21 @@ namespace PrimeiroProjeto
     {
         static void Main(string[] args)
         {
-            Aluno al = new Aluno();
-            al.Nome = "Wesley";
-            al.Idade = 25;
-            al.Nota = 75;
-            al.Apresentar();
+            Corrente corr = new Corrente();
+            corr.Creditar(1000);
+            corr.ExibirSaldo();
 
-            Professor prof = new Professor();
-            prof.Nome = "João";
-            prof.Idade = 47;
-            prof.Salario = 1500;
-            prof.Apresentar();
+            // Aluno al = new Aluno();
+            // al.Nome = "Wesley";
+            // al.Idade = 25;
+            // al.Nota = 75;
+            // al.Apresentar();
+
+            // Professor prof = new Professor();
+            // prof.Nome = "João";
+            // prof.Idade = 47;
+            // prof.Salario = 1500;
+            // prof.Apresentar();
 
             // Pessoa p1 = new Pessoa();
             // Retangulo med = new Retangulo();
