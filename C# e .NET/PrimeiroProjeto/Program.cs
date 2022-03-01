@@ -1,4 +1,6 @@
-﻿using PrimeiroProjeto.Models;
+﻿using PrimeiroProjeto.Helper;
+using PrimeiroProjeto.Interfaces;
+using PrimeiroProjeto.Models;
 
 namespace PrimeiroProjeto
 {
@@ -6,9 +8,21 @@ namespace PrimeiroProjeto
     {
         static void Main(string[] args)
         {
-            Corrente corr = new Corrente();
-            corr.Creditar(1000);
-            corr.ExibirSaldo();
+            var CaminhoDir = "/home/wesley/workspace/Bootcamp-MRV/C# e .NET/PrimeiroProjeto/Arquivos";
+
+            FileHelper fhelper = new FileHelper();
+            // fhelper.ListarDir(CaminhoDir);
+            fhelper.ListarArqs(CaminhoDir);
+
+            // ICalculadora calcCom = new CalculadoraComum();
+            // Console.WriteLine($"A soma é: {calcCom.Somar(5, 5)}");
+            // Console.WriteLine($"A subtração é: {calcCom.Subtrair(5, 5)}");
+            // Console.WriteLine($"A multiplicação é: {calcCom.Multiplicar(5, 5)}");
+            // Console.WriteLine($"A divisão é: {calcCom.Dividir(5, 5)}");
+
+            // Corrente corr = new Corrente();
+            // corr.Creditar(1000);
+            // corr.ExibirSaldo();
 
             // Aluno al = new Aluno();
             // al.Nome = "Wesley";

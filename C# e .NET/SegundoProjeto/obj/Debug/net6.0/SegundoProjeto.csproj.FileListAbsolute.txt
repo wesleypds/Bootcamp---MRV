@@ -1,0 +1,15 @@
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/bin/Debug/net6.0/SegundoProjeto
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/bin/Debug/net6.0/SegundoProjeto.deps.json
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/bin/Debug/net6.0/SegundoProjeto.runtimeconfig.json
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/bin/Debug/net6.0/SegundoProjeto.dll
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/bin/Debug/net6.0/SegundoProjeto.pdb
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/obj/Debug/net6.0/SegundoProjeto.csproj.AssemblyReference.cache
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/obj/Debug/net6.0/SegundoProjeto.GeneratedMSBuildEditorConfig.editorconfig
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/obj/Debug/net6.0/SegundoProjeto.AssemblyInfoInputs.cache
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/obj/Debug/net6.0/SegundoProjeto.AssemblyInfo.cs
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/obj/Debug/net6.0/SegundoProjeto.csproj.CoreCompileInputs.cache
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/obj/Debug/net6.0/SegundoProjeto.dll
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/obj/Debug/net6.0/refint/SegundoProjeto.dll
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/obj/Debug/net6.0/SegundoProjeto.pdb
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/obj/Debug/net6.0/SegundoProjeto.genruntimeconfig.cache
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/SegundoProjeto/obj/Debug/net6.0/ref/SegundoProjeto.dll
