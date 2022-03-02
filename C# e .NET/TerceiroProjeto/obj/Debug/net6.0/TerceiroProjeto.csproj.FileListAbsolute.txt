@@ -1,0 +1,15 @@
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/bin/Debug/net6.0/TerceiroProjeto
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/bin/Debug/net6.0/TerceiroProjeto.deps.json
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/bin/Debug/net6.0/TerceiroProjeto.runtimeconfig.json
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/bin/Debug/net6.0/TerceiroProjeto.dll
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/bin/Debug/net6.0/TerceiroProjeto.pdb
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/obj/Debug/net6.0/TerceiroProjeto.csproj.AssemblyReference.cache
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/obj/Debug/net6.0/TerceiroProjeto.GeneratedMSBuildEditorConfig.editorconfig
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/obj/Debug/net6.0/TerceiroProjeto.AssemblyInfoInputs.cache
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/obj/Debug/net6.0/TerceiroProjeto.AssemblyInfo.cs
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/obj/Debug/net6.0/TerceiroProjeto.csproj.CoreCompileInputs.cache
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/obj/Debug/net6.0/TerceiroProjeto.dll
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/obj/Debug/net6.0/refint/TerceiroProjeto.dll
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/obj/Debug/net6.0/TerceiroProjeto.pdb
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/obj/Debug/net6.0/TerceiroProjeto.genruntimeconfig.cache
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/TerceiroProjeto/obj/Debug/net6.0/ref/TerceiroProjeto.dll
