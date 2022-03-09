@@ -1,0 +1,15 @@
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/bin/Debug/net6.0/crud-dotnet
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/bin/Debug/net6.0/crud-dotnet.deps.json
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/bin/Debug/net6.0/crud-dotnet.runtimeconfig.json
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/bin/Debug/net6.0/crud-dotnet.dll
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/bin/Debug/net6.0/crud-dotnet.pdb
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/obj/Debug/net6.0/crud-dotnet.csproj.AssemblyReference.cache
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/obj/Debug/net6.0/crud-dotnet.GeneratedMSBuildEditorConfig.editorconfig
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/obj/Debug/net6.0/crud-dotnet.AssemblyInfoInputs.cache
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/obj/Debug/net6.0/crud-dotnet.AssemblyInfo.cs
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/obj/Debug/net6.0/crud-dotnet.csproj.CoreCompileInputs.cache
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/obj/Debug/net6.0/crud-dotnet.dll
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/obj/Debug/net6.0/refint/crud-dotnet.dll
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/obj/Debug/net6.0/crud-dotnet.pdb
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/obj/Debug/net6.0/crud-dotnet.genruntimeconfig.cache
+/home/wesley/workspace/Bootcamp-MRV/C# e .NET/crud-dotnet/obj/Debug/net6.0/ref/crud-dotnet.dll
